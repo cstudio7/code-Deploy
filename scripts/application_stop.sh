@@ -2,4 +2,4 @@
 #Stopping existing node servers
 echo "Stopping any existing node servers"
 cd /home/ubuntu/express-app
-npm run stop
+yarn run stop
