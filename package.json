@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon --exec babel-node server.js"
+    "stop": "killall node",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",

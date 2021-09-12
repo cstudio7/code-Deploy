@@ -13,7 +13,7 @@ app.use(cors());
 
 
 app.get('/', function (req, res) {
-    res.send('Welcome to Sqaf Api');
+    res.send('Welcome to Express App');
 });
 
 const server = app.listen(port, () => {
