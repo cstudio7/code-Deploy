@@ -14,6 +14,3 @@ else
   mkdir ${DIR}
 fi
 
-cd /home/ubuntu/express-app
-
-yarn run stop
