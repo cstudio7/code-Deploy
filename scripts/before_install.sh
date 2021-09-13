@@ -1,5 +1,5 @@
 #!/bin/bash
-
+pkill node
 #download node and npm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 . ~/.nvm/nvm.sh
@@ -13,4 +13,4 @@ else
   echo "Creating ${DIR} directory"
   mkdir ${DIR}
 fi
-pkill node
+

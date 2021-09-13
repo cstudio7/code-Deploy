@@ -13,7 +13,7 @@ app.use(cors());
 
 
 app.get('/', function (req, res) {
-    res.send('Its a beautiful Thing Learning CI/CD with Victor and Chiamaka');
+    res.send('Its all working for my good');
 });
 
 const server = app.listen(port, () => {
