@@ -13,7 +13,7 @@ app.use(cors());
 
 
 app.get('/', function (req, res) {
-    res.send('Trying Something new with Express 4');
+    res.send('Its a beautiful Thing Learning CI/CD');
 });
 
 const server = app.listen(port, () => {
