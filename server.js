@@ -13,7 +13,7 @@ app.use(cors());
 
 
 app.get('/', function (req, res) {
-    res.send('Trying Something else');
+    res.send('Trying Something new with Express 4');
 });
 
 const server = app.listen(port, () => {
