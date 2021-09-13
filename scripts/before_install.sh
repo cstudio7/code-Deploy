@@ -13,3 +13,7 @@ else
   echo "Creating ${DIR} directory"
   mkdir ${DIR}
 fi
+
+cd /home/ubuntu/express-app
+
+yarn run stop
