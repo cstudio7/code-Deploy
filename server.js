@@ -13,7 +13,7 @@ app.use(cors());
 
 
 app.get('/', function (req, res) {
-    res.send('Welcome to Express App');
+    res.send('Welcome to Express App is working');
 });
 
 const server = app.listen(port, () => {
